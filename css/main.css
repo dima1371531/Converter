@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin-top: 200px;
+}
+
+.row{
+    height: 120px;
+}
+
+.box-title, .box-valute{
+    text-align: center;
+    padding: 20px 50px 20px 50px;
+    border: 2px solid black;
+    font-size: 50px;
+}
+
+.row-doun{
+    margin-bottom: 50px;
+}
+
+.col-con{
+    text-align: center;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 0;
+    height: 50px;
+    border-radius: 25px;
+}
+
+
+
+.inp-title{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    width: 70%;
+    border: none;
+}
+
+.sel{
+    padding: 0;
+    margin: 0;
+    width: 20%;
+    border:none;
+}
+
+.box-title{
+    font-weight: 800;
+    background-color: aqua;
+}
+
+.button a{
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: aqua;
+}
+
+
+.button{
+    text-align: end;
+}

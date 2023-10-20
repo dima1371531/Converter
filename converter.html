@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Converter</title>
+</head>
+<body>
+    <div class="container w-50">
+        <div class="row">
+            <div class="col col-con">
+                <input class="inp-title" type="number" id="input">
+                <select class="sel" name="select" id="select">
+                    <option value="RUB">RUB</option>
+                </select>
+            </div>
+            <div class="col col-con">
+                <input class="inp-title" type="number" id="result">
+                <select class="sel" name="select" id="select-r">
+                    <option value="USD">USD</option>
+                    <option value="EUR">EUR</option>
+                    <option value="GBP">GBP</option>
+                </select>
+            </div>
+        </div>
+        <form class="button" action="index.html" target="_blank">
+            <a href="index.html">Посмотреть курс валют</a>
+        </form>
+    </div>
+    <script src="js/converter.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+</body>
+</html>
